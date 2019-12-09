@@ -51,7 +51,7 @@ mvpdb.fetch('/api/api_name').then( (results) => {
 }, alert);
 ```
 
-For an authenticated request (one that [may require login](/apis#any-logged-in-user)), a user must be logged in beforehand:
+For an authenticated request (one that [may require login](https://docs.mvpdb.io/apis#any-logged-in-user)), a user must be logged in beforehand:
 ```javascript
 // Authenticated Request (only need to Login() once)
 mvpdb.Login('username', 'password').then(()=>{
